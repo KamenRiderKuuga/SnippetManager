@@ -21,8 +21,8 @@ namespace SnippetManager
             this.EventContorler();
         }
 
-        private List<SnippetManager.Library.VSInfo> _objListVSInfo;
-        private System.ComponentModel.BackgroundWorker _objBGWorker = new BackgroundWorker();
+        private List<Library.VSInfo> _objListVSInfo;
+        private BackgroundWorker _objBGWorker = new BackgroundWorker();
         private bool _bolEditing;
 
         #region Properties
@@ -33,7 +33,7 @@ namespace SnippetManager
             set { _bolEditing = value; }
         }
 
-        public List<SnippetManager.Library.VSInfo> VSInfo
+        public List<Library.VSInfo> VSInfo
         {
             get { return _objListVSInfo; }
             set { _objListVSInfo = value; }

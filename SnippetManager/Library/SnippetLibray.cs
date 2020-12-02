@@ -94,14 +94,18 @@ namespace SnippetManager
                 set { _strVersion = value; }
             }
 
-            //语言种类
+            /// <summary>
+            /// 语言种类
+            /// </summary>
             public SnippetEnum.Languge Language
             {
                 get { return _objLanguge; }
                 set { _objLanguge = value; }
             }
 
-            //Snippet路径
+            /// <summary>
+            /// Snippet路径
+            /// </summary>
             public string Path
             {
                 get { return _strPath; }
